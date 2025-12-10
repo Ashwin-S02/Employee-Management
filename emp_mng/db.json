@@ -1,0 +1,415 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@company.com",
+      "department": "Engineering",
+      "position": "Senior Software Engineer",
+      "status": "Active",
+      "salary": 120000,
+      "attendance": {
+        "daysWorked": 245,
+        "daysAbsent": 2,
+        "daysOnLeave": 8,
+        "lastAttendance": "2024-02-20"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@company.com",
+      "department": "Marketing",
+      "position": "Marketing Manager",
+      "status": "Active",
+      "salary": 95000,
+      "attendance": {
+        "daysWorked": 230,
+        "daysAbsent": 8,
+        "daysOnLeave": 12,
+        "lastAttendance": "2024-02-20"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Mike Johnson",
+      "email": "mike.johnson@company.com",
+      "department": "Human Resources",
+      "position": "HR Specialist",
+      "status": "Active",
+      "salary": 75000,
+      "attendance": {
+        "daysWorked": 210,
+        "daysAbsent": 12,
+        "daysOnLeave": 18,
+        "lastAttendance": "2024-02-19"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Sarah Williams",
+      "email": "sarah.williams@company.com",
+      "department": "Finance",
+      "position": "Financial Analyst",
+      "status": "Active",
+      "salary": 85000,
+      "attendance": {
+        "daysWorked": 238,
+        "daysAbsent": 4,
+        "daysOnLeave": 13,
+        "lastAttendance": "2024-02-20"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Emily Davis",
+      "email": "emily.davis@company.com",
+      "department": "Finance",
+      "position": "Finance Manager",
+      "status": "Active",
+      "salary": 110000,
+      "attendance": {
+        "daysWorked": 240,
+        "daysAbsent": 3,
+        "daysOnLeave": 7,
+        "lastAttendance": "2024-02-20"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Robert Wilson",
+      "email": "robert.wilson@company.com",
+      "department": "Sales",
+      "position": "Sales Director",
+      "status": "Active",
+      "salary": 130000,
+      "attendance": {
+        "daysWorked": 235,
+        "daysAbsent": 5,
+        "daysOnLeave": 15,
+        "lastAttendance": "2024-02-19"
+      }
+    },
+    {
+      "id": "8",
+      "name": "Lisa Anderson",
+      "email": "lisa.anderson@company.com",
+      "department": "Marketing",
+      "position": "Digital Marketing Specialist",
+      "status": "Active",
+      "salary": 70000,
+      "attendance": {
+        "daysWorked": 220,
+        "daysAbsent": 10,
+        "daysOnLeave": 15,
+        "lastAttendance": "2024-02-20"
+      }
+    },
+    {
+      "id": "9",
+      "name": "Michael Brown",
+      "email": "michael.brown@company.com",
+      "department": "Human Resources",
+      "position": "HR Manager",
+      "status": "Active",
+      "salary": 90000,
+      "attendance": {
+        "daysWorked": 225,
+        "daysAbsent": 8,
+        "daysOnLeave": 12,
+        "lastAttendance": "2024-02-20"
+      }
+    },
+    {
+      "id": "11",
+      "name": "Christopher Lee",
+      "email": "christopher.lee@company.com",
+      "department": "Sales",
+      "position": "Sales Representative",
+      "status": "Active",
+      "salary": 65000,
+      "attendance": {
+        "daysWorked": 200,
+        "daysAbsent": 15,
+        "daysOnLeave": 20,
+        "lastAttendance": "2024-02-18"
+      }
+    },
+    {
+      "id": "12",
+      "name": "Amanda Taylor",
+      "email": "amanda.taylor@company.com",
+      "department": "Finance",
+      "position": "Accountant",
+      "status": "On Leave",
+      "salary": 60000,
+      "attendance": {
+        "daysWorked": 180,
+        "daysAbsent": 20,
+        "daysOnLeave": 25,
+        "lastAttendance": "2024-02-15"
+      }
+    },
+    {
+      "id": "13",
+      "name": "Daniel Martinez",
+      "email": "daniel.martinez@company.com",
+      "department": "Engineering",
+      "position": "DevOps Engineer",
+      "status": "Active",
+      "salary": 115000,
+      "attendance": {
+        "daysWorked": 245,
+        "daysAbsent": 2,
+        "daysOnLeave": 8,
+        "lastAttendance": "2024-02-20"
+      }
+    },
+    {
+      "id": "14",
+      "name": "Rachel Green",
+      "email": "rachel.green@company.com",
+      "department": "Marketing",
+      "position": "Content Strategist",
+      "status": "Active",
+      "salary": 75000,
+      "attendance": {
+        "daysWorked": 215,
+        "daysAbsent": 12,
+        "daysOnLeave": 18,
+        "lastAttendance": "2024-02-20"
+      }
+    },
+    {
+      "id": "15",
+      "name": "Thomas Rodriguez",
+      "email": "thomas.rodriguez@company.com",
+      "department": "Sales",
+      "position": "Sales Manager",
+      "status": "Active",
+      "salary": 85000,
+      "attendance": {
+        "daysWorked": 230,
+        "daysAbsent": 8,
+        "daysOnLeave": 12,
+        "lastAttendance": "2024-02-19"
+      }
+    },
+    {
+      "id": "17",
+      "name": "Kevin Thompson",
+      "email": "kevin.thompson@company.com",
+      "department": "Operations",
+      "position": "Process Analyst",
+      "status": "Active",
+      "salary": 75000,
+      "attendance": {
+        "daysWorked": 225,
+        "daysAbsent": 8,
+        "daysOnLeave": 12,
+        "lastAttendance": "2024-02-20"
+      }
+    },
+    {
+      "id": "18",
+      "name": "Maria Lopez",
+      "email": "maria.lopez@company.com",
+      "department": "Operations",
+      "position": "Business Operations Specialist",
+      "status": "Active",
+      "salary": 70000,
+      "attendance": {
+        "daysWorked": 218,
+        "daysAbsent": 12,
+        "daysOnLeave": 15,
+        "lastAttendance": "2024-02-19"
+      }
+    },
+    {
+      "id": "19",
+      "name": "Alex Thompson",
+      "email": "alex.thompson@company.com",
+      "department": "Customer Support",
+      "position": "Customer Support Manager",
+      "status": "Active",
+      "salary": 75000,
+      "attendance": {
+        "daysWorked": 235,
+        "daysAbsent": 5,
+        "daysOnLeave": 10,
+        "lastAttendance": "2024-02-20"
+      }
+    },
+    {
+      "id": "20",
+      "name": "Sophie Chen",
+      "email": "sophie.chen@company.com",
+      "department": "Customer Support",
+      "position": "Technical Support Specialist",
+      "status": "Active",
+      "salary": 55000,
+      "attendance": {
+        "daysWorked": 220,
+        "daysAbsent": 10,
+        "daysOnLeave": 15,
+        "lastAttendance": "2024-02-20"
+      }
+    },
+    {
+      "id": "21",
+      "name": "Ryan Davis",
+      "email": "ryan.davis@company.com",
+      "department": "Customer Support",
+      "position": "Customer Success Representative",
+      "status": "Active",
+      "salary": 50000,
+      "attendance": {
+        "daysWorked": 200,
+        "daysAbsent": 15,
+        "daysOnLeave": 20,
+        "lastAttendance": "2024-02-18"
+      }
+    },
+    {
+      "id": "22",
+      "name": "Dr. Sarah Chen",
+      "email": "sarah.chen@company.com",
+      "department": "Research & Development",
+      "position": "R&D Director",
+      "status": "Active",
+      "salary": 140000,
+      "attendance": {
+        "daysWorked": 245,
+        "daysAbsent": 2,
+        "daysOnLeave": 8,
+        "lastAttendance": "2024-02-20"
+      }
+    },
+    {
+      "id": "23",
+      "name": "Dr. Michael Park",
+      "email": "michael.park@company.com",
+      "department": "Research & Development",
+      "position": "Senior Research Scientist",
+      "status": "Active",
+      "salary": 120000,
+      "attendance": {
+        "daysWorked": 240,
+        "daysAbsent": 3,
+        "daysOnLeave": 12,
+        "lastAttendance": "2024-02-20"
+      }
+    },
+    {
+      "id": "24",
+      "name": "Dr. Emily Rodriguez",
+      "email": "emily.rodriguez@company.com",
+      "department": "Research & Development",
+      "position": "Product Research Lead",
+      "status": "On Leave",
+      "salary": 110000,
+      "attendance": {
+        "daysWorked": 230,
+        "daysAbsent": 8,
+        "daysOnLeave": 17,
+        "lastAttendance": "2024-02-19"
+      }
+    },
+    {
+      "id": "25",
+      "name": "James Wilson",
+      "email": "james.wilson@company.com",
+      "department": "Research & Development",
+      "position": "Innovation Engineer",
+      "status": "Active",
+      "salary": 95000,
+      "attendance": {
+        "daysWorked": 225,
+        "daysAbsent": 10,
+        "daysOnLeave": 20,
+        "lastAttendance": "2024-02-18"
+      }
+    },
+    {
+      "id": "69ad",
+      "name": "ashiwin",
+      "email": "ashwin432005@gmail.com",
+      "department": "Marketing",
+      "position": "devops",
+      "status": "On Leave",
+      "salary": 325,
+      "attendance": {
+        "daysWorked": 5,
+        "daysAbsent": 1,
+        "daysOnLeave": 1,
+        "lastAttendance": "2025-12-12"
+      }
+    }
+  ],
+  "departments": [
+    {
+      "id": "1",
+      "name": "Engineering",
+      "description": "Software development and technical operations",
+      "manager": "John Doe",
+      "budget": 2500000,
+      "status": "Active"
+    },
+    {
+      "id": "2",
+      "name": "Marketing",
+      "description": "Digital marketing and brand management",
+      "manager": "Sarah Johnson",
+      "budget": 800000,
+      "status": "Active"
+    },
+    {
+      "id": "3",
+      "name": "Human Resources",
+      "description": "Employee relations and talent management",
+      "manager": "Michael Brown",
+      "budget": 600000,
+      "status": "Active"
+    },
+    {
+      "id": "4",
+      "name": "Finance",
+      "description": "Financial operations and accounting",
+      "manager": "Emily Davis",
+      "budget": 1200000,
+      "status": "Active"
+    },
+    {
+      "id": "5",
+      "name": "Sales",
+      "description": "Customer acquisition and revenue generation",
+      "manager": "Robert Wilson",
+      "budget": 1500000,
+      "status": "Active"
+    },
+    {
+      "id": "6",
+      "name": "Operations",
+      "description": "Business operations and process management",
+      "manager": "Jessica White",
+      "budget": 900000,
+      "status": "Active"
+    },
+    {
+      "id": "7",
+      "name": "Customer Support",
+      "description": "Customer service and technical support",
+      "manager": "Alex Thompson",
+      "budget": 500000,
+      "status": "Active"
+    },
+    {
+      "id": "8",
+      "name": "Research & Development",
+      "description": "Product innovation and research initiatives",
+      "manager": "Dr. Sarah Chen",
+      "budget": 1800000,
+      "status": "Active"
+    }
+  ]
+}

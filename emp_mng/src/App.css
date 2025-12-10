@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Navigation styles */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+/* Card styles */
+.card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+/* Table styles */
+.table {
+  margin-bottom: 0;
+}
+
+.table thead th {
+  border-top: none;
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+/* Button styles */
+.btn {
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-danger:hover {
+  transform: translateY(-1px);
+}
+
+/* Badge styles */
+.badge {
+  padding: 0.5em 0.8em;
+  font-weight: 500;
+}
+
+/* Modal styles */
+.modal-content {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.modal-header {
+  border-bottom: 1px solid #eee;
+  background-color: #f8f9fa;
+}
+
+/* Form styles */
+.form-control {
+  border: 1px solid #dee2e6;
+  padding: 0.6rem 1rem;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.15);
+}
+
+/* Alert styles */
+.alert {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Container padding */
+.container {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 1rem;
+  }
+  
+  .table-responsive {
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+/* Animation for loading state */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
